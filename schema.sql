@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS admins (
+    id BIGSERIAL PRIMARY KEY,
+    username VARCHAR(80) NOT NULL UNIQUE,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    password_hash TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS usuarios (
+    id BIGSERIAL PRIMARY KEY,
+    nombre VARCHAR(120) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    rol VARCHAR(20) NOT NULL CHECK (rol IN ('admin', 'usuario'))
+);
