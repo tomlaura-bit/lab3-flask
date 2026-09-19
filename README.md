@@ -27,4 +27,4 @@ Al iniciar, la aplicación crea las tablas si faltan y registra el administrador
 3. Crear un usuario, mostrarlo en la tabla y editar su nombre o rol.
 4. Eliminar al usuario con confirmación y mostrar `README.md`, `schema.sql` y `docker-compose.yml`.
 
-Antes de subir el proyecto a un repositorio público, verifica que `.env` no esté incluido. El enlace público de GitHub y el video deben crearse con tus cuentas.
+Repositorio público: <https://github.com/tomlaura-bit/lab3-flask>. El archivo `.env` no se publica porque contiene credenciales. El video demostrativo debe grabarse y compartirse mediante un enlace accesible.
